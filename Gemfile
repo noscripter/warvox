@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'unicorn'
-gem 'rails', '>=4.1.9', '< 4.2.0'
+gem 'rails', '>= 4.1.14', '< 4.2.0'
 gem 'pg', '>=0.17'
 
 gem 'jquery-rails', '>= 3.1.2'
@@ -12,7 +12,7 @@ gem 'kissfft'
 gem 'rex', '~> 2.0.3'
 
 gem 'bootstrap-sass', '>= 3.2.0'
-gem 'sass-rails',   '~> 4.0.2'
+gem 'sass-rails', '~> 4.0.5'
 gem 'coffee-rails', '~> 4.0.1'
 gem 'uglifier',     '>= 1.0.3'
 gem 'protected_attributes', '~> 1.0.7'
