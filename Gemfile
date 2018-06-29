@@ -18,7 +18,7 @@ gem 'uglifier',     '>= 1.0.3'
 gem 'protected_attributes', '~> 1.0.7'
 gem 'autoprefixer-rails'
 
-gem 'authlogic', '>= 3.4.0'
+gem 'authlogic', '>= 3.4.6'
 gem 'rails-settings-cached', '>= 0.4.1'
 gem "breadcrumbs_on_rails"
 
@@ -34,14 +34,14 @@ gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
 gem 'dynamic_form', '>= 1.1.4'
 gem 'psych_shield'
-gem 'scrypt'
+gem 'scrypt', '>= 2.0.2'
 
 group :development do
-  gem 'guard-bundler'
-  gem 'guard-rails'
-  gem 'guard-rspec'
+  gem 'guard-bundler', '>= 2.1.0'
+  gem 'guard-rails', '>= 0.7.2'
+  gem 'guard-rspec', '>= 4.6.4'
   gem 'rails_layout'
-  gem 'guard-livereload', '~> 2.4', require: false
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.1', require: false
   gem 'annotate'
 end
 group :development, :test do
@@ -53,6 +53,6 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.48.1'
   gem 'shoulda-matchers', '2.8'
 end
