@@ -53,6 +53,6 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.48.1'
   gem 'shoulda-matchers', '2.8'
 end
