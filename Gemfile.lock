@@ -55,12 +55,11 @@ GEM
       activesupport (>= 3.2)
       request_store (~> 1.0)
       scrypt (>= 1.2, < 3.0)
-    autoprefixer-rails (6.1.0.1)
+    autoprefixer-rails (9.5.1)
       execjs
-      json
-    bootstrap-sass (3.3.5)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.2.19)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     breadcrumbs_on_rails (2.3.1)
     builder (3.2.2)
     capybara (2.5.0)
@@ -87,7 +86,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.0.8)
-    execjs (2.6.0)
+    execjs (2.7.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.5.0)
@@ -138,7 +137,7 @@ GEM
     jquery-rails (3.1.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    json (1.8.3)
+    json (1.8.6)
     kgio (2.10.0)
     kissfft (0.0.2)
     launchy (2.4.3)
@@ -226,6 +225,9 @@ GEM
       sass (~> 3.2.2)
       sprockets (~> 2.8, < 3.0)
       sprockets-rails (~> 2.0)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     scrypt (2.0.2)
       ffi-compiler (>= 0.0.2)
       rake
@@ -276,7 +278,7 @@ DEPENDENCIES
   annotate
   authlogic (>= 3.4.0)
   autoprefixer-rails
-  bootstrap-sass (>= 3.2.0)
+  bootstrap-sass (>= 3.4.0)
   breadcrumbs_on_rails
   capybara
   coffee-rails (~> 4.0.1)
@@ -313,3 +315,6 @@ DEPENDENCIES
   unicorn
   will_paginate (~> 3.0)
   will_paginate-bootstrap
+
+BUNDLED WITH
+   1.17.3

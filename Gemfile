@@ -11,7 +11,7 @@ gem 'jquery-datatables-rails', git: 'https://github.com/rweng/jquery-datatables-
 gem 'kissfft'
 gem 'rex', '~> 2.0.3'
 
-gem 'bootstrap-sass', '>= 3.2.0'
+gem 'bootstrap-sass', '>= 3.4.0'
 gem 'sass-rails',   '~> 4.0.2'
 gem 'coffee-rails', '~> 4.0.1'
 gem 'uglifier',     '>= 1.0.3'
